@@ -1,0 +1,17 @@
+# Public principles repository. Nothing here is secret; this list keeps
+# implementation and local files from being committed by mistake.
+.env
+.env.*
+*.pem
+*.key
+*.age
+*.sql
+*.sh
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/*
+!.claude/handoffs/
+!.claude/done/
